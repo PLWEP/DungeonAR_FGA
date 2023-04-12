@@ -2214,11 +2214,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2119779181}
-  - component: {fileID: 2119779186}
   - component: {fileID: 2119779185}
   - component: {fileID: 2119779184}
   - component: {fileID: 2119779183}
   - component: {fileID: 2119779182}
+  - component: {fileID: 2119779186}
   m_Layer: 0
   m_Name: VirtualButton
   m_TagString: Untagged
@@ -2334,7 +2334,7 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 
   mInitializedInEditor: 0
-  mName: HubButton
+  mName: MozillaButton
   mSensitivity: 0
   mHasUpdatedPose: 1
   mPrevTransform:

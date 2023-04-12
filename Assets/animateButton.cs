@@ -8,7 +8,6 @@ public class animateButton : MonoBehaviour
     public VirtualButtonBehaviour vb;
     public Animator anim;
 
-    // Start is called before the first frame update
     void Start()
     {
         vb.RegisterOnButtonPressed(onTap);
