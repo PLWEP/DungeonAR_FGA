@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Dungeon_2" size="1.000000 1.027500" />
+    <ImageTarget name="Dungeon_1" size="1.000000 0.902222" />
+    <ImageTarget name="Dungeon_4" size="1.000000 0.563380" />
+    <ImageTarget name="Dungeon_3" size="1.000000 1.200528" />
+  </Tracking>
+</QCARConfig>
