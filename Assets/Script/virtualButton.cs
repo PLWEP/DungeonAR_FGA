@@ -5,16 +5,9 @@ using Vuforia;
 
 public class virtualButton : MonoBehaviour
 {
-    public VirtualButtonBehaviour vb;
-
-    void Start()
-    {
-        vb.RegisterOnButtonPressed(onTap);
-    }
-
-    public void onTap(VirtualButtonBehaviour vb)
+    public void onTap()
     {
         Debug.Log("Button terklik");
-        Application.OpenURL("https://hubs.mozilla.com/link/HavS8LG");
+        Application.OpenURL("https://hubs.mozilla.com/link/LQJxmRW");
     }
 }

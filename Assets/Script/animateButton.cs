@@ -5,19 +5,13 @@ using Vuforia;
 
 public class animateButton : MonoBehaviour
 {
-    public VirtualButtonBehaviour vb;
     public Animator anim;
 
-    void Start()
-    {
-        vb.RegisterOnButtonPressed(onTap);
-    }
-
-    public void onTap(VirtualButtonBehaviour vb)
+    public void onTap()
     {
         Debug.Log("Animasi terklik");
-        anim.Play("RotateAnimation");
-        anim.Play("Idle");
+        anim.Play("open");
+        anim.Play("close");
     }
 }
 
