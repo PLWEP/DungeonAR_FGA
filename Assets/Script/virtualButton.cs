@@ -7,6 +7,6 @@ public class virtualButton : MonoBehaviour
 {
     public void onTap()
     {
-        Application.OpenURL("https://hubs.mozilla.com/link/xCzFQFs");
+        Application.OpenURL("https://hubs.mozilla.com/link/KvFazMw");
     }
 }
