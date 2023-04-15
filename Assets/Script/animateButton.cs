@@ -9,7 +9,6 @@ public class animateButton : MonoBehaviour
 
     public void onTap()
     {
-        Debug.Log("Animasi terklik");
         anim.Play("open");
         anim.Play("close");
     }
